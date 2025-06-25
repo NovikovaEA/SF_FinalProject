@@ -1,0 +1,915 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<nsi:document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:nsi="urn://x-artefacts-nsi-gov-ru/services/cnsi/2.0.0.0">
+	<nsi:simple-classifier code="RS_Regions" name="Субъекты РФ" uid="7e799dc6-f91d-4a3a-addc-8f25387aa7c6" version="27" public-id="01-6810" tech-name="dr_7e799dc6f91d4a3aaddc8f25387aa7c6" updatePeriod="365" checksum="0" key-attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+		<nsi:description>
+			<![CDATA[Субъекты РФ]]>
+		</nsi:description>
+		<nsi:string-attribute uid="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3" name="Код субъекта РФ" required="true" autoFill="false" tech-name="f_ea93f3e0bd204b2c92bcd89254a1d4d3" unique="false" autoKeyPartNum="1" length="50" checkObscene="true" checkOrthography="false"/>
+		<nsi:string-attribute uid="6e97a04a-1563-456f-b1e2-fe414b33c3c6" name="Наименование субъекта РФ" required="true" autoFill="false" tech-name="f_6e97a04a1563456fb1e2fe414b33c3c6" unique="false" length="255" checkObscene="true" checkOrthography="false"/>
+		<nsi:string-attribute uid="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f" name="autokey" required="true" autoFill="false" tech-name="autokey" unique="true" checkObscene="false" checkOrthography="false"/>
+	</nsi:simple-classifier>
+	<nsi:data classifier-ref="7e799dc6-f91d-4a3a-addc-8f25387aa7c6">
+		<nsi:record uid="0dd9496e-df2b-40d6-8640-211333519a20">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>10</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Карелия, республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_10</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="70ccfaeb-9a73-411a-8020-f79133ad796e">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>11</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Коми, республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_11</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="930b35b0-3e79-4c9b-a9b7-fca62e0ade87">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>12</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Марий Эл, республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_12</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="0c0ecf60-33cc-4bd9-8d0f-e6c4e8180082">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>13</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Мордовия, республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_13</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="61bc56bf-eff8-47c9-b1b5-964a8e631b76">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>14</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Саха (Якутия), республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_14</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="c495997b-8568-4f3c-a469-87fbc054ed92">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>15</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Северная Осетия - Алания</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_15</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="825ddde6-cb35-422b-a37c-f1d1d5c4331f">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>17</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Тыва, республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_17</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="133001fb-068a-4d47-87b3-e474a93ecd89">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>18</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Удмуртская республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_18</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="5c0dab15-6fe7-4871-b0b7-430277ce945a">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>19</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Хакасия, республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_19</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="c7c777c6-62d2-4cc3-9757-2c626bd32738">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>20</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Чеченская республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_20</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="cccd1812-a34c-44ff-bf65-5ab5046ea37f">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>28</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Амурская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_28</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="9bc54e57-1179-48b7-9627-48ef61961809">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>29</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Архангельская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_29</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="d31e3ed6-f229-4e74-8257-943bb47d505d">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>30</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Астраханская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_30</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="86bebb16-3805-45f3-93b4-7ef116c55ca9">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>31</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Белгородская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_31</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="94b7a6b1-bd36-4557-99c1-73eb9e11ed19">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>32</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Брянская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_32</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="c3d95e1a-a0fe-41ca-a07a-b9e4b1277ac6">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>33</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Владимирская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_33</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="08590f4a-ab3b-4778-bb4e-581b71103053">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>34</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Волгоградская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_34</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="102beb0f-30c3-4cbc-99d1-edcca8c4b34c">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>35</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Вологодская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_35</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="ef69f7bc-fc78-4f61-9d70-d858a73ad99f">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>36</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Воронежская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_36</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="42189836-0bc3-4854-a4bf-1dcf80d182ea">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>37</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Ивановская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_37</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="1b864f58-147b-40bf-ad49-dad8feb19167">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>39</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Калининградская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_39</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="8408d986-591c-4056-98ea-0aaef7c24197">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>40</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Калужская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_40</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="310a62f4-c900-4fc3-938d-9d8dc1d4bc0f">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>21</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Чувашская республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_21</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="65a52248-9894-4582-9a4b-fc2fe858d938">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>22</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Алтайский край</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_22</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="235a9239-cb8d-4b52-8126-990a01ff1805">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>23</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Краснодарский край</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_23</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="c98a06e6-3a24-4dee-87a9-07e38bb63da8">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>24</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Красноярский край</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_24</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="cb19345e-9fb1-4df8-81cb-5398a6c8aaad">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>25</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Приморский край</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_25</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="80bdb5ed-a9ce-43c5-8ae5-e05716985c47">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>26</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Ставропольский край</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_26</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="e24a9dd8-3cfa-4547-8601-dd2122b57fed">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>27</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Хабаровский край</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_27</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="887c7ad0-9fda-4f05-be41-890455c3cbee">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>41</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Камчатский край</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_41</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="199a5f0b-2c77-4482-876a-6944cdc35da6">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>42</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Кемеровская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_42</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="10fa586b-5536-4205-94ed-11c3c926197f">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>43</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Кировская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_43</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="124d26f5-8047-43a2-94f7-78422a949d14">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>44</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Костромская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_44</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="ad467141-1840-458b-8687-bada466be652">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>46</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Курская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_46</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="112241bd-f09e-4719-a2f5-5814c3884d36">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>47</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Ленинградская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_47</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="ddd77d89-3914-48a5-bf30-78617a010d8c">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>48</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Липецкая область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_48</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="94ecb8e2-2414-48d4-ae31-4feb9a9dfaf1">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>49</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Магаданская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_49</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="8039aecb-c99d-4b09-a101-a644e68a522c">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>50</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Московская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_50</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="d12b9dfb-9a54-4040-80be-2e8ab659fa87">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>51</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Мурманская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_51</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="6e44266b-69de-4ef3-b020-3fd9e9071fde">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>52</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Нижегородская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_52</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="fb818227-608c-4ea2-a186-d0a04e32be83">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>53</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Новгородская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_53</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="b0a7b390-d5a8-4a32-949b-6cfb5867a283">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>55</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Омская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_55</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="fd7b4ca3-7724-4ef1-9fa0-9d1879c8679b">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>56</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Оренбургская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_56</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="16c302ef-c771-4e23-b245-c89faa9cf766">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>57</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Орловская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_57</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="00b32202-8387-4bbc-ab2f-fa6383122033">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>58</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Пензенская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_58</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="a26f0728-7863-49bf-9f10-93752657a42c">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>59</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Пермский край</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_59</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="b54ff45b-798b-4dcf-b341-413c6101b963">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>60</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Псковская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_60</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="cea062ec-f53e-4cc7-95f4-d5a2fa39f176">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>68</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Тамбовская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_68</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="3f4679a2-c625-4ba1-897b-431837a9fb54">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>69</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Тверская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_69</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="4ebf0665-c79a-450d-aa82-c1f9ec9751ff">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>70</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Томская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_70</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="9a773344-6887-4fad-8188-9f46fd7b5761">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>71</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Тульская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_71</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="3b8a23e0-8526-415d-bf77-42842ca4eca0">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>72</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Тюменская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_72</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="4b821989-0ac1-4c19-9031-e40940009bf7">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>73</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Ульяновская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_73</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="6a8fca05-55d3-4106-9b35-413583d166b9">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>74</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Челябинская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_74</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="88ea25c0-4fc3-4d39-9637-2ab60be8dc2b">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>75</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Забайкальский край</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_75</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="75e583ed-d87a-4210-94bb-5c3d34a055ac">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>61</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Ростовская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_61</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="cc24f2e3-ed69-4993-a7fb-9978acb3e014">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>62</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Рязанская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_62</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="87ccc1d3-254e-4214-aef2-45eb9620b66e">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>63</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Самарская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_63</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="b70cba32-ca6e-4d06-9209-d1baf503985f">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>64</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Саратовская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_64</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="7569bac0-668e-4445-a020-67d306c253cf">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>65</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Сахалинская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_65</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="0a90f4b4-a471-4823-9a57-aefe403a9eb0">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>66</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Свердловская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_66</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="1b45ab83-9bca-4a5d-bdef-039826154f5a">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>67</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Смоленская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_67</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="518aa5e9-bdde-40c0-bba5-6c34f31e311d">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>76</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Ярославская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_76</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="d0129fb0-e20d-4f73-b84b-bf5570a7fa5a">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>77</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Москва</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_77</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="66c22d95-25e9-43c9-85fd-51715922efed">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>78</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Санкт-Петербург</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_78</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="d06d4e49-f11a-4eea-b574-f3362ada3615">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>79</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Еврейская АО</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_79</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="02be7d85-449e-4e6e-a570-3efc949979c8">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>86</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Ханты-Мансийский АО - Югра</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_86</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="6457ae47-2cd1-4611-80bf-799394e2fc61">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>87</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Чукотский АО</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_87</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="039712c6-63d5-4bf1-aea8-07581decb6ff">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>89</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Ямало-Ненецкий АО</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_89</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="41e12c3d-75c5-47d5-b21e-07a06a146e0a">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>54</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Новосибирская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_54</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="764bcc70-3d01-451f-bdad-d9ddf40e548f">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>05</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Дагестан, республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_05</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="6dd574a1-34ce-4794-ac02-e03b768b05bb">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>04</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Алтай, республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_04</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="61d545b7-44cb-4a1c-b840-e02702c6f3a8">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>09</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Карачаево-Черкесская республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_09</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="c35eb882-c693-4c80-9f1a-ddfb239cd77d">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>03</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Бурятия, республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_03</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="55df6504-ffd0-4637-8203-f1c36c65ff51">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>01</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Адыгея, республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_01</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="88824097-e1c8-411d-ad5a-cae4212389c5">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>08</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Калмыкия, республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_08</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="047ae902-0743-4245-a81f-7ae7c7affdbf">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>07</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Кабардино-Балкарская республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_07</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="f41ec411-0151-430e-af15-25cf4532f95f">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>06</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Ингушетия, республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_06</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="b722e734-9947-4da9-b3a9-21fc2b548352">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>38</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Иркутская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_38</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="f9c3ef2b-e490-4e7d-9fe5-7ff8c52bd227">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>45</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Курганская область</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_45</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="acca28db-c36b-4617-96b8-e50f23f42984">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>16</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Татарстан, республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_16</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+		<nsi:record uid="71d201ff-181f-411b-b892-d3036ca35141">
+			<nsi:attribute-value attribute-ref="ea93f3e0-bd20-4b2c-92bc-d89254a1d4d3">
+				<nsi:string>02</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="6e97a04a-1563-456f-b1e2-fe414b33c3c6">
+				<nsi:string>Башкортостан, республика</nsi:string>
+			</nsi:attribute-value>
+			<nsi:attribute-value attribute-ref="2cea21fc-9f86-4fd5-92b7-3c0f0eb0e02f">
+				<nsi:string>RS_Regions_02</nsi:string>
+			</nsi:attribute-value>
+		</nsi:record>
+	</nsi:data>
+</nsi:document>
